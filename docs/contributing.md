@@ -25,10 +25,6 @@ Click includes some extra test environments:
     $ tox r -e random
     ```
 
--   A CI workflow (`.github/workflows/test-flask.yaml`)
-    runs Flask's test suite to catch downstream
-    regressions.
-
 ## Code Style
 
 Avoid ternary expressions (`x if cond else y`): coverage
